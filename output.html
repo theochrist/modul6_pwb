@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+</head>
+<body>
+   <h3>Selamat Uang yang Anda Habiskan</h3>
+   <script>
+      function calculate(){
+         document.getElementById("_Harga").innerHTML = 1;
+      }
+      function bmw(){
+         let value = document.getElementById("Jken").value;
+         if(value === "bmw"){
+            document.getElementById("_JenisKendaraan").innerHTML = value;
+         } else {
+            document.getElementById("_JenisKendaraan").innerHTML = "kendaraan not found";
+         }
+      }
+   </script>
+   
+</body>
+</html>
